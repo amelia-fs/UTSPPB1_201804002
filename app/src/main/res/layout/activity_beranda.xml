@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".beranda"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFF"
+            android:text="TRPL-PEI"
+            android:textAlignment="center"
+            android:textColor="#006400"
+            android:textSize="30sp"
+            app:autoSizeMaxTextSize="20dp" />
+        <Button
+            android:id="@+id/btndatadosen"
+            style="@style/ButtonMenu"
+            android:layout_marginTop="100dp"
+            android:text="Data Staff Dosen" />
+        <Button
+            android:id="@+id/btndatamhs"
+            style="@style/ButtonMenu"
+            android:text="Data Mahasiswa"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/btninputdosen"
+            style="@style/ButtonMenu"
+            android:text="Input Data Staff Dosen"
+            android:layout_marginTop="25dp" />
+        <Button
+            android:id="@+id/btninputmhs"
+            style="@style/ButtonMenu"
+            android:text="Input Data Mahasiswa"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/btnlogout"
+            style="@style/ButtonMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="50dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginTop="50dp"
+            android:background="#006400"
+            android:text="Copyright2020"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+</LinearLayout>

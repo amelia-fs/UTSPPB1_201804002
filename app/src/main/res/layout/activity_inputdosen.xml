@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inputdosen"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/nip"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="NIP"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="NAMA"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="EMAIL"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="ALAMAT"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/btnsimpan"
+            style="@style/ButtonLogin"
+            android:text="SIMPAN"/>
+        <Button
+            android:id="@+id/btnbatal"
+            style="@style/ButtonLogin"
+            android:layout_marginLeft="30px"
+            android:text="BATAL" />
+    </LinearLayout>
+</LinearLayout>
